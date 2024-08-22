@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170 350">
+
+  <polygon class="svg-robot_gray" points="70 330 70 310 70 290 50 290 50 310 50 350 70 350 110 350 110 330 70 330">
+  <animateTransform values="90 60 290;0 60 290;90 60 290;"  accumulate="none" additive="replace" attributeName="transform" calcMode="linear" dur="5s" fill="remove" repeatCount="indefinite" restart="always" type="rotate">
+	</animateTransform>
+</polygon>
+  <rect class="svg-robot_body" x="0" y="60" width="120" height="130"/>
+  <rect class="svg-robot_body" x="40" y="60" width="40" height="40"/>
+  <rect class="svg-robot_body" x="80" y="60" width="40" height="40"/>
+  <rect class="svg-robot_body" x="0" y="100" width="40" height="40"/>
+  <rect class="svg-robot_body" x="40" y="100" width="40" height="40"/>
+  <rect class="svg-robot_body" x="80" y="100" width="40" height="40"/>
+  <rect class="svg-robot_eye" x="80" y="90" width="40" height="40"/>
+  <rect class="svg-robot_body" x="0" y="140" width="40" height="40"/>
+  <rect class="svg-robot_body" x="40" y="140" width="40" height="40"/>
+  <rect class="svg-robot_body" x="80" y="140" width="40" height="40"/>
+  <rect class="svg-robot_body" x="0" y="190" width="120" height="120"/>
+  <rect class="svg-robot_body" x="40" y="190" width="40" height="40"/>
+  <rect class="svg-robot_body" x="80" y="190" width="40" height="40"/>
+  <rect class="svg-robot_body" x="0" y="230" width="40" height="40"/>
+  <rect class="svg-robot_body" x="40" y="230" width="40" height="40"/>
+  <rect class="svg-robot_body" x="80" y="230" width="40" height="40"/>
+  <rect class="svg-robot_body" x="0" y="270" width="40" height="40"/>
+  <rect class="svg-robot_body" x="40" y="270" width="40" height="40"/>
+  <rect class="svg-robot_red" x="50" y="20" width="20" height="20">
+        <animate
+      attributeName="y"
+      dur="1"
+      repeatCount="indefinite"
+      values="20;10"
+      />
+  </rect>
+  <rect class="svg-robot_gray" x="50" y="40" width="20" height="20"/>
+  <rect class="svg-robot_body" x="80" y="270" width="40" height="40"/>
+  <rect class="svg-robot_neck" x="0" y="180" width="120" height="10"/>
+  <rect class="svg-robot_gray" x="50" y="190" width="20" height="60"/>
+  <rect class="svg-robot_red" x="130" y="200" width="20" height="40"/>
+  <rect class="svg-robot_red" x="130" y="200" width="40" height="10"/>
+  <rect class="svg-robot_red" x="130" y="230" width="40" height="10"/>
+  <rect class="svg-robot_gray" x="50" y="210" width="80" height="20"/>
+  <rect class="svg-robot_red" x="80" y="143" width="40" height="10"/>
+  <polygon class="svg-robot_gray" points="70 330 70 310 70 290 50 290 50 310 50 350 70 350 110 350 110 330 70 330">
+  <animateTransform values="0 60 290;90 60 290;0 60 290;"  accumulate="none" additive="replace" attributeName="transform" calcMode="linear" dur="5s" fill="remove" repeatCount="indefinite" restart="always" type="rotate">
+	</animateTransform>
+</polygon>
+</svg>

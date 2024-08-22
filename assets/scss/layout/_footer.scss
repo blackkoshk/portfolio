@@ -1,0 +1,57 @@
+/*--------------------------------------
+フッター
+--------------------------------------*/
+.l-footer{
+  background: $black;
+  color: #fff;
+  padding: 50px 20px;
+  position: relative;
+
+  .l-wrapper{
+    max-width: 960px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+    @include sm{
+      flex-direction: row;
+    }
+  }
+
+  &__logo{
+    display: grid;
+    align-items: center;
+    margin-bottom: 20px;
+    svg{
+      width: clamp(150px, 50vw, 250px);
+    }
+
+    @include sm{
+      margin-bottom: 0;
+    }
+  }
+  &__right{
+    &-icon{
+      margin-bottom: 10px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+
+      @include sm{
+        justify-content: flex-start;
+      }
+      li{
+        img{
+          height: 20px;
+        }
+      }
+    }
+
+    &-copy{
+      text-align: center;
+      font-size: rem(10);
+    }
+  }
+}

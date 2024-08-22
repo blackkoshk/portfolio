@@ -1,0 +1,41 @@
+/*--------------------------------------
+マウスストーカー
+--------------------------------------*/
+
+.c-mouse{
+  opacity: 0;
+  // transition: all .3s;
+  position: fixed;
+}
+.c-mouse__text {
+  width: 120px;
+  height: 120px;
+  margin: -160px 0 0 -60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* アクティブ時 */
+.c-mouse.js-mouse_active{
+  opacity: 0;
+}
+
+/* マウスホバー時 */
+.c-mouse.js-mouse_hover {
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 1;
+  z-index: 9999;
+  transform: translate3d(50vw, 50vh, 0);
+  pointer-events: none;
+  transition: all .3s ease-out;
+}
+
+.p-page-works{
+  .c-mouse__text {
+    margin: -60px 0 0 -60px;
+  }
+}

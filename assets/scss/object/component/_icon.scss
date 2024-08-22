@@ -1,0 +1,175 @@
+/*--------------------------------------
+星
+--------------------------------------*/
+
+.c-star{
+  position: absolute;
+  z-index: 1;
+
+  img{
+    width: 30px;
+  }
+
+  &01{
+    left: 5%;
+    bottom: 6%;
+
+    @include sm{
+      left: 10%;
+      bottom: 4%;
+    }
+  }
+  &02{
+    left: 20%;
+    bottom: 2%;
+
+    @include sm{
+      left: 2%;
+      bottom: 8%;
+    }
+    img{
+      width: 40px;
+    }
+  }
+  &03{
+    left: 80%;
+    bottom: 0;
+
+    @include sm{
+      left: 5%;
+      bottom: 0;
+    }
+    img{
+      width: 20px;
+    }
+  }
+  &04{
+    right: 12%;
+    bottom: 10%;
+    img{
+      width: 20px;
+    }
+  }
+  &05{
+    right: 24%;
+    bottom: 8%;
+
+    @include sm{
+      right: 9%;
+      bottom: 16%;
+    }
+    img{
+      width: 40px;
+    }
+  }
+  &06{
+    right: 80%;
+    bottom: 2%;
+
+    @include sm{
+      right: 7%;
+      bottom: 2%;
+    }
+    img{
+      width: 20px;
+    }
+  }
+  &07{
+    left: -20px;
+    top: 60%;
+    img{
+      width: 50px;
+    }
+  }
+
+  &08{
+    right: 10%;
+    top: 0;
+  }
+
+  &09{
+    right: 10%;
+    bottom: 50%;
+
+    @include sm{
+      left: 5%;
+      right: auto;
+      bottom: 0;
+    }
+    img{
+      width: 40px;
+    }
+  }
+}
+
+
+.c-ufo__cls-1 {
+  fill: #4395c8;
+}
+
+.c-ufo__cls-2 {
+  fill: #e6c71e;
+}
+
+.c-ufo__cls-3 {
+  fill: #003A84;
+}
+.c-ufo__light_01{
+  animation: ufo-light_01 .5s ease-in-out infinite alternate;
+  transform: translateZ(0);
+  will-change: opacity;
+}
+@keyframes ufo-light_01{
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+.c-ufo__light_02{
+  animation: ufo-light_02 .5s ease-in-out infinite alternate;
+  transform: translateZ(0);
+  will-change: opacity;
+}
+@keyframes ufo-light_02{
+  0% {opacity:1;}
+  100% {opacity:0;}
+}
+
+
+
+.c-airplane__cls-2 {
+  fill: #6d6d6d;
+}
+
+.c-airplane__cls-3 {
+  fill: #4395c8;
+}
+
+.c-airplane__cls-4 {
+  fill: silver;
+}
+
+.c-airplane__cls-5 {
+  fill: #fff;
+}
+
+
+.p-contact__robot-body {
+  fill: #4395c8;
+}
+
+.p-contact__robot-neck {
+  fill: #1e2127;
+}
+
+.p-contact__robot-red {
+  fill: #d32c16;
+}
+
+.p-contact__robot-eye {
+  fill: #e6c71e;
+}
+
+.p-contact__robot-gray {
+  fill: #eee;
+}
+
+

@@ -1,0 +1,64 @@
+/*--------------------------------------
+メイン共通
+--------------------------------------*/
+.l-main{
+  position: relative;
+  overflow: hidden;
+}
+
+.p-about,
+.p-skills,
+.p-works,
+.p-contact{
+  z-index: 1;
+  position: relative;
+  width: 100%;
+  // padding: 50px 0;
+  padding-bottom: 75px;
+  overflow: hidden;
+
+  @include sm{
+    // padding: 75px 0;
+    padding-bottom: 150px;
+  }
+}
+.p-contact{
+  padding-bottom: 0;
+  @include sm{
+    padding-bottom: 0;
+  }
+}
+
+.p-page-about,
+.p-page-career,
+.p-page-works,
+.p-page-works__detail{
+  position: relative;
+  z-index: 1;
+  padding-bottom: 75px;
+  overflow: hidden;
+
+  @include sm{
+    padding-bottom: 150px;
+  }
+}
+// .p-page-about,
+// .p-page-works,
+// .p-page-works__detail{
+//   padding-top: 0;
+
+//   @include sm{
+//     padding-top: 0;
+//   }
+// }
+
+.l-wrapper{
+  width: 100%;
+  max-width: 1280px;
+  margin-inline: auto;
+  padding-inline:30px;
+
+  @include sm{
+    padding: 0 40px;
+  }
+}

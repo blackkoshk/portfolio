@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 774 294">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #0058b3;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #020926;
+      }
+
+      .cls-3 {
+        fill: #020926;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-5 {
+        fill: #fff000;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" x="126" y="84" width="42" height="42"/>
+  <polygon class="cls-5" points="42 84 0 84 0 126 42 126 42 168 84 168 84 126 84 84 42 84"/>
+  <path class="cls-2" d="m420,84h-168v-42h-42V0h-84v42h-42v168h294v-42h42v-42h42v-42h-42Zm-294,0h42v42h-42v-42Z"/>
+  <rect class="cls-4" x="512" y="84" width="100" height="32">
+                          <animate
+                        attributeName="x"
+                        values="512;612"
+                        dur="1s"
+                        repeatCount="indefinite"
+                        />
+						<animate
+                        attributeName="width"
+                        values="100;200"
+                        dur="1s"
+                        repeatCount="indefinite"
+                        />
+</rect>
+  <rect class="cls-4" x="574" y="131" width="100" height="32">
+                            <animate
+                        attributeName="x"
+                        values="574;674"
+                        dur="1s"
+                        repeatCount="indefinite"
+                        />
+						<animate
+                        attributeName="width"
+                        values="100;200"
+                        dur="1s"
+                        repeatCount="indefinite"
+                        />
+</rect>
+  <rect class="cls-4" x="512" y="178" width="100" height="32">
+                            <animate
+                        attributeName="x"
+                        values="512;612"
+                        dur="1s"
+                        repeatCount="indefinite"
+                        />
+						<animate
+                        attributeName="width"
+                        values="100;200"
+                        dur="1s"
+                        repeatCount="indefinite"
+                        />
+</rect>
+<polygon class="cls-3" points="336 0 294 0 294 42 252 42 252 84 252 126 252 168 294 168 294 126 336 126 336 84 378 84 378 42 378 0 336 0">
+    <animate attributeName="points"
+      dur="1s"
+      keyTimes="0;0.5;1"
+      values="336 0 294 0 294 42 252 42 252 84 252 126 252 168 294 168 294 126 336 126 336 84 378 84 378 42 378 0 336 0;
+              336 294 294 294 294 252 252 252 252 210 252 168 252 126 294 126 294 168 336 168 336 210 378 210 378 252 378 294 336 294;
+              336 0 294 0 294 42 252 42 252 84 252 126 252 168 294 168 294 126 336 126 336 84 378 84 378 42 378 0 336 0"
+      repeatCount="indefinite" />
+  </polygon>
+</svg>

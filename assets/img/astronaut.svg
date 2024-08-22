@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_2" data-name="レイヤー 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 336.04 453.03">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1a1a1a;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: silver;
+      }
+
+      .cls-3 {
+        fill: #916034;
+      }
+
+      .cls-4 {
+        fill: #999;
+      }
+
+      .cls-5 {
+        fill: #eee;
+      }
+
+      .cls-6 {
+        fill: #ea5514;
+      }
+
+      .cls-7 {
+        fill: #0050a3;
+      }
+    </style>
+  </defs>
+  <g id="_レイヤー_1-2" data-name="レイヤー 1">
+    <rect class="cls-5" x="83.94" y="0" width="168" height="209.77"/>
+    <rect class="cls-5" x="0" y="209.78" width="126" height="42"/>
+    <rect class="cls-5" x="42.1" y="411.03" width="84" height="42"/>
+    <rect class="cls-5" x="84.1" y="390.03" width="42" height="42"/>
+    <rect class="cls-2" x="210.1" y="390.03" width="42" height="42"/>
+    <rect class="cls-5" x="209.98" y="410.78" width="84" height="42"/>
+    <rect class="cls-5" x="0" y="209.78" width="42" height="126"/>
+    <rect class="cls-7" x=".04" y="272.78" width="42" height="21"/>
+    <rect class="cls-5" x="210.04" y="209.78" width="126" height="42"/>
+    <rect class="cls-5" x="294.04" y="209.78" width="42" height="126"/>
+    <rect class="cls-7" x="294" y="272.78" width="42" height="21"/>
+    <rect class="cls-5" x="84.1" y="209.77" width="168" height="201"/>
+    <rect class="cls-3" x="189.9" y="62.03" width="42" height="42"/>
+    <rect class="cls-6" x="188.9" y="146.03" width="42" height="32"/>
+    <rect class="cls-7" x="105.1" y="322.53" width="126" height="21"/>
+    <rect class="cls-5" x="41.94" y="41.74" width="87.03" height="84"/>
+    <rect class="cls-5" x="83.98" y="41.77" width="167.96" height="210.01"/>
+    <rect class="cls-1" x="125.98" y="41.78" width="126" height="168"/>
+    <rect class="cls-7" x="125.98" y="209.78" width="126" height="21"/>
+    <rect class="cls-4" x="120.1" y="301.53" width="96" height="42"/>
+  </g>
+</svg>

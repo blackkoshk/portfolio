@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 448">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #4395c8;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #e6c71e;
+      }
+
+      .cls-3 {
+        fill: #003A84;
+      }
+    </style>
+  </defs>
+  <rect class="cls-2" x="128" y="64" width="64" height="64">
+  <!-- <animate  accumulate="none" additive="replace" attributeName="x" calcMode="linear" dur="2s" fill="remove" repeatCount="indefinite" restart="always" values="128;192">
+	</animate>
+  <animate  accumulate="none" additive="replace" attributeName="y" calcMode="linear" dur="2s" fill="remove" repeatCount="indefinite" restart="always" values="64;128">
+	</animate> -->
+  <animate
+    attributeName="visibility"
+    dur=".8s"
+    repeatCount="indefinite"
+    values="
+    hidden;
+    visible;
+    hidden;
+    "
+    />
+  </rect>
+  <rect class="cls-2" x="64" width="64" height="64">
+  <!-- <animate  accumulate="none" additive="replace" attributeName="x" calcMode="linear" dur="2s" fill="remove" repeatCount="indefinite" restart="always" values="64;128">
+	</animate>
+  <animate  accumulate="none" additive="replace" attributeName="y" calcMode="linear" dur="2s" fill="remove" repeatCount="indefinite" restart="always" values="0;64">
+	</animate> -->
+    <animate
+    attributeName="visibility"
+    dur=".8s"
+    repeatCount="indefinite"
+    values="
+    visible;
+    hidden;
+    visible;
+    "
+    />
+  </rect>
+  <rect class="cls-1" x="128" y="320" width="64" height="128"/>
+  <rect class="cls-1" x="320" y="320" width="64" height="128"/>
+  <rect class="cls-3" x="64" y="256" width="384" height="128"/>
+  <rect class="cls-3" y="256" width="512" height="64"/>
+  <rect class="cls-1" x="128" y="192" width="256" height="128"/>
+  <rect class="cls-1" x="192" y="128" width="128" height="192"/>
+  <rect class="cls-3" x="384" y="256" width="128" height="64"/>
+</svg>

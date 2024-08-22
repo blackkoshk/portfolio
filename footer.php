@@ -1,0 +1,27 @@
+<footer class="l-footer">
+    <div class="l-wrapper">
+        <p class="l-footer__logo">
+            <a href="http://taikiabe-portfolio.local/">
+                <svg viewBox="0 0 1350 210" role="img" aria-label="ロゴ画像">
+                    <use class="logo" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="11px" href="#mark"></use>
+                    <use class="logo" fill="#fff" href="#text"></use>
+                </svg>
+            </a>
+        </p>
+        <div class="l-footer__right">
+            <ul class="l-footer__right-icon">
+                <li>
+                    <a href="mailto:abe.webdeveloper@gmail.com">
+                        <img src="/assets/img/icon_contact.svg" alt="contact" loading="lazy" decoding=”async” fetchpriority="low">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/669web" target="_blank">
+                        <img src="/assets/img/icon_x_logo.svg" alt="x（旧Twitter）" loading="lazy" decoding=”async” fetchpriority="low">
+                    </a>
+                </li>
+            </ul>
+            <p class="l-footer__right-copy">TAIKI ABE &copy; 2024 All rights reserved</p>
+        </div>
+    </div>
+</footer>

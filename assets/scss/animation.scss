@@ -1,0 +1,265 @@
+$sm: 768px; // スマホ
+$lg: 1025px; // PC
+
+@mixin sm {
+    @media (min-width: ($sm)) {
+    @content;
+    }
+}
+
+@mixin lg {
+    @media (min-width: ($lg)) {
+    @content;
+    }
+}
+
+body{
+    animation: sprite-animation 1.2s steps(11) forwards;
+}
+@-webkit-keyframes sprite-animation {
+  0% {
+    position: fixed;
+    mask-image: url("../../assets/img/sprite_mask_sp.png");
+    mask-position: 0 0;
+  }
+  99.99% {
+    position: fixed;
+    mask-image: url("../../assets/img/sprite_mask_sp.png");
+    mask-position: calc(14300px * -1 + 1300px) 0;
+  }
+  100%{
+    position: initial;
+    mask-image: initial;
+    mask-position: calc(14300px * -1 + 1300px) 0;
+  }
+}
+@keyframes sprite-animation {
+    0% {
+      position: fixed;
+      mask-image: url("../../assets/img/sprite_mask_sp.png");
+      mask-position: 0 0;
+    }
+    99.99% {
+      position: fixed;
+      mask-image: url("../../assets/img/sprite_mask_sp.png");
+      mask-position: calc(14300px * -1) 0;
+    }
+    100%{
+      position: initial;
+      mask-image: initial;
+      mask-position: calc(14300px * -1) 0;
+    }
+  }
+
+  @include sm{
+
+    @-webkit-keyframes sprite-animation {
+      0% {
+        position: fixed;
+        mask-image: url("../../assets/img/sprite_mask_sp.png");
+        mask-position: 0 0;
+      }
+      99.99% {
+        position: fixed;
+        mask-image: url("../../assets/img/sprite_mask_sp.png");
+        mask-position: calc(var(--size)* 11 * -1) 0;
+      }
+      100%{
+        position: initial;
+        mask-image: initial;
+        mask-position: calc(var(--size)* 11 * -1) 0;
+      }
+    }
+    @keyframes sprite-animation {
+        0% {
+          position: fixed;
+          mask-image: url("../../assets/img/sprite_mask_sp.png");
+          mask-position: 0 0;
+        }
+        99.99% {
+          position: fixed;
+          mask-image: url("../../assets/img/sprite_mask_sp.png");
+          mask-position: calc(var(--size)* 11 * -1) 0;
+        }
+        100%{
+          position: initial;
+          mask-image: initial;
+          mask-position: calc(var(--size)* 11 * -1) 0;
+        }
+      }
+  }
+    .p-about__meteorite{
+        animation: p-meteorite__01 10s infinite ease-in 5s both;
+        &:nth-of-type(2){
+            animation: p-meteorite__02 10s infinite ease-in 10s both;
+            display: none;
+
+            @include sm{
+              display: block;
+            }
+        }
+    }
+
+    @keyframes p-meteorite__01 {
+        from {
+        top: -10%;
+        right: -10%;
+        }
+        to {
+            top: 110%;
+            right: 110%;
+        }
+    }
+    @keyframes p-meteorite__02 {
+        from {
+        top: -10%;
+        right: 50%;
+        }
+        to {
+            top: 50%;
+            right: 110%;
+        }
+    }
+
+    .js-about__info-mosaic{
+        .p-about__info-canvas{
+        &::before{
+            animation: sprite-anime .5s steps(5) forwards;
+        }
+        }
+    }
+
+    @keyframes sprite-anime {
+        0% {
+        transform: translateY(0);
+        }
+        100% {
+        transform: translateY(-100%);
+        }
+    }
+
+    .p-about__ufo{
+        animation: p-about__ufo 10s linear infinite;
+    }
+
+    @keyframes p-about__ufo {
+        0% {
+        transform: translateX(-100px);
+        }
+        50% {
+        transform: translateX(100%);
+        }
+        100% {
+        transform: translateX(-100px);
+        }
+    }
+    @include sm{
+        @keyframes p-about__ufo {
+        0% {
+            transform: translateX(-150px);
+        }
+        50% {
+            transform: translateX(100%);
+        }
+        100% {
+            transform: translateX(-150px);
+        }
+        }
+    }
+
+    .p-skills__airplane{
+        animation:p-skills__airplane 10s linear infinite;
+
+        @include sm{
+            animation:p-skills__airplane 20s linear infinite;
+        }
+    }
+
+    @keyframes p-skills__airplane {
+        0% {
+        transform: translateX(-20%);
+        }
+        100% {
+        transform: translateX(120%);
+        }
+    }
+
+    .p-skills__modal-inner{
+        animation: p-skills_fade .5s ease-in-out forwards;
+    }
+
+    @keyframes p-skills_fade {
+        0% {
+        opacity: 0;
+        }
+
+        100% {
+        opacity: 1;
+        }
+    }
+
+
+    .p-works__cloud{
+        animation: p-cloud 100s linear 0s infinite normal none running;
+    }
+
+    @keyframes p-cloud {
+        from {
+        transform: translateX(0);
+        }
+        to {
+        transform: translateX(-800px);
+        }
+    }
+
+    @include sm{
+        @keyframes p-cloud {
+            from {
+            transform: translateX(0);
+            }
+            to {
+            transform: translateX(-1600px);
+            }
+        }
+    }
+
+    .p-contact__bg{
+        animation: p-contact__bg 20s linear 0s infinite normal none running;
+    }
+
+    @keyframes p-contact__bg{
+        0% {
+        transform: translateX(0);
+        }
+        100% {
+        transform: translateX(-2000px);
+        }
+    }
+
+
+
+
+
+// about
+    .js-about__info-mosaic{
+        .p-page-about__info-canvas{
+        &::before{
+        animation: sprite-anime .5s steps(5) forwards;
+        }
+      }
+    }
+    .p-page-about__alien{
+      animation: p-page-about__return 8s linear infinite;
+    }
+
+        @keyframes p-page-about__return {
+          0% {
+            transform: translateX(-30%);
+            }
+            50% {
+            transform: translateX(0);
+            }
+            100% {
+            transform: translateX(-30%);
+            }
+      }

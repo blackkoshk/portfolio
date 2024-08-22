@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 28.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="_レイヤー_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 2038 1018" style="enable-background:new 0 0 2038 1018;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#0159B2;}
+	.st1{fill:#08186A;}
+	.st2{fill:#2EB2E8;}
+</style>
+<g>
+	<rect x="472" y="225" class="st0" width="50" height="50"/>
+	<rect x="1802" y="612" class="st1" width="50" height="50"/>
+	<rect x="1211" y="712" class="st1" width="50" height="50"/>
+	<rect x="1019" y="225" class="st1" width="50" height="50"/>
+	<rect x="1582" y="250" class="st2" width="50" height="50"/>
+	<rect x="1677" y="840" class="st0" width="50" height="50"/>
+	<rect x="1019" y="890" class="st2" width="50" height="50"/>
+	
+		<animate  accumulate="none" additive="replace" attributeName="visibility" calcMode="linear" dur=".5s" fill="remove" repeatCount="indefinite" restart="always" values="     hidden;     visible;     hidden;     ">
+		</animate>
+</g>
+<g>
+	<rect x="1532" y="530" class="st0" width="50" height="50"/>
+	<rect x="226" y="393" class="st2" width="50" height="50"/>
+	<rect x="326" y="773" class="st0" width="50" height="50"/>
+	<rect x="604" y="890" class="st1" width="50" height="50"/>
+	<rect x="1694" y="71" class="st1" width="50" height="50"/>
+	<rect x="1186" y="284" class="st0" width="50" height="50"/>
+	<rect x="617" y="110" class="st2" width="50" height="50"/>
+	
+		<animate  accumulate="none" additive="replace" attributeName="visibility" calcMode="linear" dur=".5s" fill="remove" repeatCount="indefinite" restart="always" values="     visible;     hidden;     hidden;     ">
+		</animate>
+</g>
+<g>
+	<rect x="892" y="146" class="st0" width="50" height="50"/>
+	<rect x="276" y="575" class="st1" width="50" height="50"/>
+	<rect x="132" y="96" class="st1" width="50" height="50"/>
+	<rect x="1792" y="393" class="st0" width="50" height="50"/>
+	<rect x="1312" y="146" class="st2" width="50" height="50"/>
+	<rect x="1454" y="762" class="st2" width="50" height="50"/>
+	<rect x="722" y="723" class="st2" width="50" height="50"/>
+	
+		<animate  accumulate="none" additive="replace" attributeName="visibility" calcMode="linear" dur=".5s" fill="remove" repeatCount="indefinite" restart="always" values="     hidden;     hidden;     visible;     ">
+		</animate>
+</g>
+</svg>

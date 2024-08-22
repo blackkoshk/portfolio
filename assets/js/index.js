@@ -1,0 +1,12 @@
+import { earth } from "./modules/earth";
+import { scrollTriggerIndex } from "./modules/scrollTriggerIndex";
+import { nav } from "./modules/nav";
+import { modal } from "./modules/modal";
+import { mouseStalker } from "./modules/mouseStalker";
+import { loading } from "./modules/loading";
+earth();
+scrollTriggerIndex();
+nav();
+modal();
+mouseStalker();
+loading();

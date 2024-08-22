@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 28.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="_レイヤー_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 320 638" style="enable-background:new 0 0 320 638;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#E7271E;}
+	.st1{fill:#EA5514;}
+	.st2{fill:#C9CACA;}
+	.st3{fill:#7F8080;}
+	.st4{fill:#2EB2E8;}
+</style>
+<rect x="128" class="st0" width="64" height="128"/>
+<rect x="256" y="510" class="st1" width="64" height="64"/>
+<rect y="510" class="st1" width="64" height="64"/>
+<rect y="318" class="st0" width="320" height="128"/>
+<rect y="318" class="st0" width="64" height="128"/>
+<rect x="64" y="64" class="st0" width="192" height="446"/>
+<polygon class="st2" points="64,128 64,224.3 64,320.5 64,413.7 64,416.8 64,510 256,510 256,416.8 256,413.7 256,320.5 256,224.3 
+	256,128 "/>
+<rect x="64" y="382" class="st3" width="192" height="128"/>
+<polygon class="st1" points="64,446 64,510 128,510 128,638 192,638 192,510 256,510 256,446 "/>
+<rect x="128" y="192" class="st4" width="64" height="64"/>
+</svg>

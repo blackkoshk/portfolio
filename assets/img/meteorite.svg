@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 428 128">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f7c62a;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #98140e;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: #ef9a4a;
+      }
+
+      .cls-5 {
+        fill: #ef7421;
+      }
+    </style>
+  </defs>
+  <rect class="cls-2" x="64" y="96" width="32" height="32"/>
+  <rect class="cls-2" x="96" y="32" width="32" height="32"/>
+  <rect class="cls-2" x="96" y="64" width="32" height="32"/>
+  <rect class="cls-2" x="32" y="96" width="32" height="32"/>
+  <rect class="cls-2" x="0" y="64" width="32" height="32"/>
+  <rect class="cls-2" x="0" y="32" width="32" height="32"/>
+  <rect class="cls-5" x="64" y="32" width="32" height="32"/>
+  <rect class="cls-4" x="32" y="32" width="32" height="32"/>
+  <rect class="cls-1" x="32" y="64" width="32" height="32"/>
+  <rect class="cls-3" x="64" y="64" width="32" height="32"/>
+  <rect class="cls-2" x="64" y="0" width="32" height="32"/>
+  <rect class="cls-2" x="32" y="0" width="32" height="32"/>
+  <rect class="cls-2" x="178" y="32" width="100" height="16">
+    <animate
+    attributeName="x"
+    values="178;238"
+    dur="1s"
+    repeatCount="indefinite"
+    />
+    <animate
+    attributeName="width"
+    values="100;200"
+    dur="1s"
+    repeatCount="indefinite"
+    />
+  </rect>
+  <rect class="cls-2" x="228" y="56" width="100" height="16">
+    <animate
+    attributeName="x"
+    values="228;278"
+    dur="1s"
+    repeatCount="indefinite"
+    />
+        <animate
+    attributeName="width"
+    values="100;200"
+    dur="1s"
+    repeatCount="indefinite"
+    />
+  </rect>
+  <rect class="cls-2" x="178" y="80" width="100" height="16">
+      <animate
+    attributeName="x"
+    values="178;238"
+    dur="1s"
+    repeatCount="indefinite"
+    />
+        <animate
+    attributeName="width"
+    values="100;200"
+    dur="1s"
+    repeatCount="indefinite"
+    />
+  </rect>
+</svg>
