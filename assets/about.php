@@ -108,7 +108,7 @@
 							<p class="p-page-career__inner-date">09/2023</p>
 							<p class="p-page-career__inner-text">約5年間従事したWeb制作会社を退職。</p>
 						</li>
-            <li class="p-page-career__inner-item">
+						<li class="p-page-career__inner-item">
 							<p class="p-page-career__inner-date">04/2024</p>
 							<p class="p-page-career__inner-text">フリーランスとして従事。現在に至る。</p>
 						</li>
