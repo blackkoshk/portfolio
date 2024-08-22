@@ -39,3 +39,13 @@
             <li>foo</li>
         </ul>
     </div>
+
+    <div>
+        <ol>
+            <li>地獄の追加</li>
+            <li>どういうこっちゃ</li>
+        </ol>
+        <section>
+            これはセクションです
+        </section>
+    </div>
