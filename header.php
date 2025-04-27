@@ -25,27 +25,3 @@
         </nav>
     </aside>
     </header>
-
-    <div>
-        <p>あいうえお</p>
-        <p>テスト</p>
-        <p>hoge</p>
-    </div>
-
-    <div>
-        <ul>
-            <li>テスト2</li>
-            <li>kakikukeko</li>
-            <li>foo</li>
-        </ul>
-    </div>
-
-    <div>
-        <ol>
-            <li>地獄の追加</li>
-            <li>どういうこっちゃ</li>
-        </ol>
-        <section>
-            これはセクションです
-        </section>
-    </div>
